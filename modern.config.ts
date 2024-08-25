@@ -5,6 +5,9 @@ export default defineConfig({
   runtime: {
     router: true,
   },
+  dev: {
+    port: 3001,
+  },
   plugins: [
     appTools({
       bundler: 'experimental-rspack',
