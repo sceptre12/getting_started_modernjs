@@ -1,6 +1,12 @@
 import { Helmet } from '@modern-js/runtime/head';
 import './index.css';
 
+/**
+ *  This is the self controlled route.
+ *
+ *  I can handle my own routing or create a spa within this place
+ *  ModernJS still handles the rendering process for this app.
+ */
 const Index = () => (
   <div className="container-box">
     <Helmet>
