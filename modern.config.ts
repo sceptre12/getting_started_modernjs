@@ -13,4 +13,12 @@ export default defineConfig({
       bundler: 'experimental-rspack',
     }),
   ],
+  source: {
+    enableCustomEntry: true,
+  },
+  server: {
+    ssrByEntries: {
+      characters_build_entry: false,
+    },
+  },
 });
